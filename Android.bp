@@ -3,6 +3,23 @@
 
 
 
+package {
+    default_applicable_licenses: ["external_rust_crates_tracing-core_license"],
+}
+
+// Added automatically by a large-scale-change
+// See: http://go/android-license-faq
+license {
+    name: "external_rust_crates_tracing-core_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-MIT",
+    ],
+    license_text: [
+        "LICENSE",
+    ],
+}
+
 rust_library {
     name: "libtracing_core",
     // has rustc warnings
